@@ -12,6 +12,16 @@ export default function Hero() {
         Computer Science student focused on building responsive and interactive
         web applications using React.
       </p>
+
+      <h1 className="cv">CV</h1>
+      <div className="cv_div">
+        <a target="blank" href="https://crimson-bird-10.linkyhost.com">
+          CV Georgian
+        </a>
+        <a target="blank" href="https://dark-snowflake-988.linkyhost.com">
+          CV English
+        </a>
+      </div>
     </section>
   );
 }

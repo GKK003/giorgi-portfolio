@@ -1,11 +1,9 @@
-/* ===== RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== GLOBAL ===== */
 body {
   font-family:
     "Inter",
@@ -35,7 +33,6 @@ h2 {
   text-align: center;
 }
 
-/* ===== HERO ===== */
 .hero {
   min-height: 80vh;
   display: flex;
@@ -63,7 +60,30 @@ h2 {
   font-size: 1.05rem;
 }
 
-/* ===== SKILLS ===== */
+.cv {
+  font-size: 40px;
+  color: #0f172a;
+  margin-top: 20px;
+}
+
+.cv_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.cv_div a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #475569;
+}
+
+.cv_div a:hover {
+  color: #2563eb;
+  transition: color 0.3s ease-in-out;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +93,6 @@ h2 {
 
 .skills span {
   background-color: #e2e8f0;
-  transition: background-color 0.2s ease;
   color: #0f172a;
   padding: 10px 16px;
   border-radius: 999px;
@@ -83,7 +102,8 @@ h2 {
 
 .skills span:hover {
   background-color: #2563eb;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 #projects {
@@ -110,7 +130,7 @@ h2 {
 
 .project-card img:hover {
   opacity: 0.5;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -125,7 +145,6 @@ h2 {
   margin-bottom: 12px;
 }
 
-/* ===== TECH TAGS ===== */
 .tech {
   display: flex;
   flex-wrap: wrap;
@@ -141,7 +160,14 @@ h2 {
   border-radius: 999px;
 }
 
-/* ===== BUTTON ===== */
+.tech span:hover {
+  background-color: #1d4ed8;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
 .btn {
   margin-top: auto;
   text-align: center;
@@ -151,14 +177,13 @@ h2 {
   border-radius: 10px;
   text-decoration: none;
   font-weight: 500;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
   background-color: #1d4ed8;
 }
 
-/* ===== CONTACT ===== */
 #contact {
   text-align: center;
 }
@@ -179,7 +204,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* ===== SWIPER ===== */
 .swiper {
   padding-bottom: 50px;
 }
@@ -201,7 +225,6 @@ h2 {
   margin-top: 20px;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.2rem;

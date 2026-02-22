@@ -17,14 +17,14 @@ export const projects = [
   {
     title: "Lukan IT Landing Page",
     description: "Responsive landing page with modern layout and navigation.",
-    tech: ["React", "CSS"],
+    tech: ["Html", "CSS", "JS"],
     image: Two,
     live: "https://final-project-tau-fawn-18.vercel.app",
   },
   {
     title: "Todo App",
     description: "Todo application using React state and component structure.",
-    tech: ["React"],
+    tech: ["Html", "CSS", "JS"],
     image: Three,
     live: "https://lecture-28-to-do.vercel.app",
   },
@@ -32,7 +32,7 @@ export const projects = [
     title: "GitHub User Search",
     description:
       "Search GitHub users using public API and display profile data.",
-    tech: ["React", "API"],
+    tech: ["Html", "CSS", "JS", "API"],
     image: Four,
     live: "https://midterm-4-theta.vercel.app",
   },
