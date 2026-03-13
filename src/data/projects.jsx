@@ -42,7 +42,7 @@ export const projects = [
       "Modern gallery layout focusing on typography and composition.",
     tech: ["HTML", "CSS"],
     image: Five,
-    live: "https://midterm-3-beta.vercel.app",
+    live: "https://react-hw-14-lkyl.vercel.app",
   },
   {
     title: "Feedback Component",
