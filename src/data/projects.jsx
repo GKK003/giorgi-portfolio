@@ -37,10 +37,9 @@ export const projects = [
     live: "https://midterm-4-theta.vercel.app",
   },
   {
-    title: "Modern Art Gallery",
-    description:
-      "Modern gallery layout focusing on typography and composition.",
-    tech: ["HTML", "CSS"],
+    title: "Planets Project",
+    description: "Responsive React planet exploration website.",
+    tech: ["React", "TailwindCSS"],
     image: Five,
     live: "https://react-hw-14-lkyl.vercel.app",
   },
